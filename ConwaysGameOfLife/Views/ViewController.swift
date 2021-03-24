@@ -27,6 +27,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         gameBoard.frame = boardView.frame
         gameBoard.center = CGPoint(x: gameBoard.frame.size.width/2, y: gameBoard.frame.size.height/2)
         boardView.addSubview(gameBoard)
